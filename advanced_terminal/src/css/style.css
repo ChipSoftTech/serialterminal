@@ -1,0 +1,199 @@
+:root {
+  --form-background-color: #352e2e;
+}
+
+body {
+  background-color: var(--form-background-color);
+  font-family: monospace;
+  color: rgb(60, 255, 1);
+}
+
+button,
+datalist {
+  background-color: rgb(85, 85, 85);
+}
+
+input[type="text"] {
+  color: rgb(179, 255, 179);
+  background-color: rgb(102, 86, 86);
+  border: 1px solid;
+  border-color: #696 #363 #363 #696;
+}
+
+[type="checkbox"] {
+  vertical-align: middle;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6d7faeb4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d7fae;
+}
+
+body {
+  background-color: #352e2e;
+  font-family: monospace;
+  color: rgb(60, 255, 1);
+  padding: 0px;
+}
+
+button {
+  background-color: rgb(85, 85, 85);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #696 #363 #363 #696;
+  border-width: 1px;
+  padding: 5px;
+  margin: 0px;
+}
+
+button:hover {
+  background-color: rgb(102, 86, 86);
+}
+
+button:focus {
+  background-color: rgba(102, 86, 86, 0.675);
+}
+
+input[type="text"],
+input[type="number"] {
+  color: rgb(179, 255, 179);
+  background-color: #665656;
+  border: 1px solid;
+  border-color: #696 #363 #363 #696;
+}
+
+[type="checkbox"] {
+  vertical-align: middle;
+}
+
+[type="text"],
+[type="number"] {
+  vertical-align: middle;
+}
+
+.settings-pane {
+  transition: 0.3s;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #696 #363 #363 #696;
+  background-color: var(--form-background-color);
+  list-style-type: none;
+}
+
+.settings-pane:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.container {
+  padding: 16px 16px 16px;
+  background-color: var(--form-background-color);
+  list-style-type: none;
+  border-radius: 8px;
+}
+
+.info-note {
+  border-left: 6px solid #5053f6;
+}
+
+.info-note > p {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  margin-bottom: 4px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+}
+
+.info-note-svg {
+  fill: #5053f6;
+  vertical-align: middle;
+}
+
+.info-note-svg > path {
+  fill: #5053f6;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+.checkBoxes label {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-right: 15px;
+  padding-left: 9px;
+}
+
+.checkBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.advancedInputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.advancedInputs > ul {
+  padding: 0px;
+  padding-left: 9px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.5em;
+}
+
+.form-row > input {
+  flex: 2;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  padding-top: 0.5em;
+  padding-left: 9px;
+  padding-bottom: 10px;
+}
+
+#serialResults {
+  font-family: monospace;
+  white-space: pre;
+  height: calc(100% - 120px);
+  width: calc(100% - 20px);
+  border-style: solid;
+  overflow: scroll;
+  background-color: rgb(88, 92, 92);
+  padding: 10px;
+  margin: 0px;
+}
+
+a {
+  color: rgb(1, 111, 255);
+}
