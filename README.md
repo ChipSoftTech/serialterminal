@@ -18,6 +18,6 @@ Full source here:
 Known to work in chrome, chromium and edge browsers.
 Will not work in firefox or brave. 
 
-Modified by Brian Carter from Chippewa Software Technology. <br/>
-Originally created by mmiscool as a simple example. <br/>
+Modified by Brian Carter from Chippewa Software Technology. <br/><br/>
+Originally created by mmiscool as a simple example. <br/><br/>
 ZanzyTHEbar has made some significant improvements and added a settings page exposing more of the connection settings along with doing an xterm.js implementation under the advanced button. 
